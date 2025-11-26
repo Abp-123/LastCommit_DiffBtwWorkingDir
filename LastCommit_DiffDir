@@ -1,0 +1,33 @@
+# Make a new directory for your project
+mkdir MySimpleProject
+cd MySimpleProject
+
+# Create a simple file
+echo "Hello World!" > hello.txt
+
+# Initialize Git
+git init
+
+# Check repository status
+git status
+
+# Add file to staging area
+git add hello.txt
+
+# Commit with a descriptive message
+git commit -m "Initial commit with hello.txt"
+
+# Edit the file
+echo "This is my first Git project." >> hello.txt
+
+# Check status
+git status
+
+# See differences from last commit
+git diff
+
+git add hello.txt
+git commit -m "Added second line to hello.txt"
+
+# Display chronological history of commits
+git log
